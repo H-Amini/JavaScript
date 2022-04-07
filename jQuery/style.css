@@ -1,0 +1,42 @@
+*, html {
+	padding: 0;
+	margin: 0;
+}
+
+
+#calc {
+	float: left;
+	margin: 0 auto;
+	border: 1px solid blue;
+	overflow: auto;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+}
+#calc #display {
+	margin: 0 auto;
+	width: 85%;
+	border: 1px solid lightblue;
+	padding: 10px;
+	text-align: right;
+}
+#calc .digits, #calc .operations {
+	float: left;
+	padding: 3px 10px;
+	background-color: #efefef;
+	display: block;
+	font-size: 1.4em;
+	margin: 3px;
+	text-decoration: none;
+	color: red;
+	width: 30px;
+}
+#calc .operations {
+	color: black;
+}
+#calc #dot, #calc #sign {
+	color: black;
+}
+.clear {
+	clear: both;
+}
