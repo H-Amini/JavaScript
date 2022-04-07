@@ -15,7 +15,7 @@
           <input type="text" placeholder="0" id="number1" />
           <input type="text" placeholder="0" id="number2" />
           <input type="text" placeholder="result" id="result" />
-          <input type="button" onclick="reset()" value="C" class="float-end" />
+          <input type="button" onclick="reset()" value="C" />
         </div>
 
         <div class="row-cols-6 mt-5">
@@ -28,7 +28,12 @@
           <input type="button" value="4" onclick="addToCalculator(value)" />
           <input type="button" value="5" onclick="addToCalculator(value)" />
           <input type="button" value="6" onclick="addToCalculator(value)" />
-          <input type="button" value="-" onclick="addToCalculator(value)" />
+          <input
+            type="button"
+            name="minus"
+            value="-"
+            onclick="addToCalculator(minus.value)"
+          />
         </div>
         <div class="row-cols-6">
           <input type="button" value="1" onclick="addToCalculator(value)" />

@@ -16,19 +16,23 @@ function finilize() {
   switch (opera) {
     case "*":
       document.getElementById("result").value = number1 * number2;
+      opera = null;
       break;
     case "/":
       document.getElementById("result").value = number1 / number2;
+      opera = null;
       break;
     case "+":
       document.getElementById("result").value = number1 + number2;
+      opera = null;
       break;
     case "-":
       document.getElementById("result").value = number1 - number2;
+      opera = null;
       break;
 
     default:
+      alert("error");
       break;
   }
-  document.getElementById("result").value;
 }
